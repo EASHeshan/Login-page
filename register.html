@@ -23,8 +23,8 @@
             <li><a href="#" class="nav-link px-2">About</a></li>
           </ul>
           <div class="col-md-3 text-end">
-            <button type="button"  class="btn btn-outline-primary me-2">Login</button>
-            <button type="button" class="btn btn-primary" onclick="location.href='register.html'">Sign-up</button>
+            <button type="button"  class="btn btn-outline-primary me-2" onclick="location.href='login.html'" >Login</button>
+            <button type="button" class="btn btn-primary">Sign-up</button>
           </div>
         </header>
       </div>
@@ -34,15 +34,17 @@
         
           <img class="mb-4" src="img/hostel.png" alt="" width="72" height="57">
           <h1 style="font-size: 54px;color: rgb(75, 13, 13);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>Please Sign In ...</b></h1>
-      
-          <div class="form-floating mb-2" style="width: 500px;">
-            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-            <label for="floatingInput">Email address</label>
+      <div class="row">
+          <div class="col">
+            <input type="Fname" class="form-control" id="floatingInput" placeholder="First name">
           </div>
-          <div class="form-floating">
-            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-            <label for="floatingPassword">Password</label>
+          <div class="col">
+            <input type="Lname" class="form-control" id="floatingPassword" placeholder="Email">
           </div>
+        </div>
+        <div class="row">
+            <input type="email" class="form-control" id="floatingPassword" placeholder="name@example.com">
+        </div>
       
           <div class="form-check text-start my-3">
             <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
