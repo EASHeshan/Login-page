@@ -1,7 +1,12 @@
 
-body {
+.bg-image{
   background-image: url('img/hostel-rgu.101.jpeg');
-  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div.absolute {
+  position: absolute;
+  top: 200px;
+  right: 500px;
 }
